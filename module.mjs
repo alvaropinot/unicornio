@@ -1,5 +1,3 @@
-import { emojify } from 'npm:node-emoji@2'
+import { generateUnicorn } from './lib/index.mjs'
 
-const unicornSounds = emojify(':unicorn: :heart: :rainbow:')
-
-export default unicornSounds
+export default { generateUnicorn }
